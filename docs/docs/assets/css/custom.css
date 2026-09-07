@@ -1,0 +1,60 @@
+:root{
+  --fp-navy: #0B1F3B;
+  --fp-gold: #B8872B;
+  --fp-ink:  #0D1526;
+}
+.main-content h1, .main-content h2, .main-content h3 { letter-spacing: .2px; }
+a { text-decoration-thickness: 1px; }
+
+.hero{
+  padding: 1.35rem;
+  border: 1px solid rgba(0,0,0,.08);
+  border-radius: 16px;
+  background:
+    radial-gradient(800px 220px at 15% 0%, rgba(184,135,43,.18), transparent 60%),
+    radial-gradient(900px 240px at 90% 20%, rgba(11,31,59,.16), transparent 55%),
+    linear-gradient(180deg, rgba(255,255,255,.9), rgba(255,255,255,.98));
+}
+.hero h1{ margin:.2rem 0; color:var(--fp-navy); }
+.hero p{ font-size:1.03rem; max-width:76ch; color:rgba(13,21,38,.88); }
+.hero .sub{ margin-top:.4rem; color:rgba(13,21,38,.72); }
+
+.btn-row{ display:flex; gap:.65rem; flex-wrap:wrap; margin-top:.9rem; }
+.btn{
+  display:inline-block; padding:.58rem .95rem;
+  border-radius:12px; border:1px solid rgba(11,31,59,.25);
+  text-decoration:none !important; font-weight:700;
+}
+.btn.primary{ background:var(--fp-navy); color:#fff !important; border-color:var(--fp-navy); }
+.btn.secondary{ background:#fff; color:var(--fp-navy) !important; }
+.btn.gold{ background:var(--fp-gold); color:#fff !important; border-color:var(--fp-gold); }
+
+.kpi-grid{
+  display:grid; grid-template-columns:repeat(auto-fit, minmax(220px, 1fr));
+  gap:.85rem; margin-top:1.05rem;
+}
+.kpi{
+  border:1px solid rgba(0,0,0,.08); border-radius:14px;
+  padding:.95rem 1rem; background:rgba(255,255,255,.92);
+}
+.kpi strong{ display:block; font-size:.9rem; color:rgba(13,21,38,.7); }
+.kpi span{ display:block; font-size:1.1rem; margin-top:.25rem; color:var(--fp-ink); }
+
+.card-grid{
+  display:grid; grid-template-columns:repeat(auto-fit, minmax(255px, 1fr));
+  gap:.95rem; margin:1rem 0;
+}
+.card{
+  border:1px solid rgba(0,0,0,.08); border-radius:16px;
+  padding:1rem 1.05rem; background:#fff;
+}
+.card h3{ margin-top:.35rem; color:var(--fp-navy); }
+.badge{
+  display:inline-block; padding:.18rem .55rem; border-radius:999px;
+  font-size:.78rem; border:1px solid rgba(184,135,43,.35);
+  background:rgba(184,135,43,.10); color:rgba(13,21,38,.88);
+}
+.hr-gold{
+  height:3px; width:74px; background:var(--fp-gold);
+  border-radius:999px; margin:.65rem 0 1rem;
+}
