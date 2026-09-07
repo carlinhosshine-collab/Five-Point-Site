@@ -1,12 +1,19 @@
 title: "FIVE POINT"
 description: "Consultoria • Contabilidade & Fiscalidade • Gestão Financeira • TI & Transformação Digital • Jurídico • Arquitetura/Obras • Formação"
-theme: just-the-docs
 
 url: ""
 baseurl: ""
 
+# Usa o tema remoto (corrige o erro do theme não encontrado)
+remote_theme: just-the-docs/just-the-docs
+
+plugins:
+  - jekyll-remote-theme
+
+# Logo
 logo: "/assets/img/logo.png"
 
+# UI
 search_enabled: true
 heading_anchors: true
 back_to_top: true
