@@ -1,0 +1,21 @@
+title: "FIVE POINT"
+description: "Consultoria • Contabilidade & Fiscalidade • Gestão Financeira • TI & Transformação Digital • Jurídico • Arquitetura/Obras • Formação"
+theme: just-the-docs
+
+url: ""
+baseurl: ""
+
+logo: "/assets/img/logo.png"
+
+search_enabled: true
+heading_anchors: true
+back_to_top: true
+back_to_top_text: "Voltar ao topo"
+
+aux_links:
+  "Serviços":
+    - "/servicos"
+  "Contacto":
+    - "/contacto"
+
+footer_content: "© FIVE POINT – Comércio e Prestação de Serviços, LDA."
